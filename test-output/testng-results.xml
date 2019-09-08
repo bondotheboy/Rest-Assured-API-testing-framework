@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="13" ignored="0" total="32" passed="19">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="3805" started-at="2019-09-08T17:17:17Z" finished-at="2019-09-08T17:17:21Z">
+  <suite name="Suite" duration-ms="4387" started-at="2019-09-08T20:42:18Z" finished-at="2019-09-08T20:42:23Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="3805" started-at="2019-09-08T17:17:17Z" finished-at="2019-09-08T17:17:21Z">
+    <test name="Test" duration-ms="4387" started-at="2019-09-08T20:42:18Z" finished-at="2019-09-08T20:42:23Z">
       <class name="postAPITests.SpotTradeTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:postAPITests.SpotTradeTests@ae45eb6]" name="setup" is-config="true" duration-ms="1" started-at="2019-09-08T17:17:18Z" description="Setup API request" finished-at="2019-09-08T17:17:18Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:postAPITests.SpotTradeTests@ae45eb6]" name="setup" is-config="true" duration-ms="1" started-at="2019-09-08T20:42:19Z" description="Setup API request" finished-at="2019-09-08T20:42:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="tc010_spot_invalid_value_date()[pri:0, instance:postAPITests.SpotTradeTests@ae45eb6]" name="tc010_spot_invalid_value_date" duration-ms="1755" started-at="2019-09-08T17:17:18Z" description="SPOT:Invalid Value date should throw an error" finished-at="2019-09-08T17:17:19Z">
+        <test-method status="FAIL" signature="tc010_spot_invalid_value_date()[pri:0, instance:postAPITests.SpotTradeTests@ae45eb6]" name="tc010_spot_invalid_value_date" duration-ms="1764" started-at="2019-09-08T20:42:19Z" description="SPOT:Invalid Value date should throw an error" finished-at="2019-09-08T20:42:21Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -56,27 +56,27 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc010_spot_invalid_value_date -->
-        <test-method status="PASS" signature="tc01_spot_value_date_after_trade_date()[pri:0, instance:postAPITests.SpotTradeTests@ae45eb6]" name="tc01_spot_value_date_after_trade_date" duration-ms="86" started-at="2019-09-08T17:17:19Z" description="SPOT:Value date is after trade date, with valid counterparty, legal entity and currency" finished-at="2019-09-08T17:17:20Z">
+        <test-method status="PASS" signature="tc01_spot_value_date_after_trade_date()[pri:0, instance:postAPITests.SpotTradeTests@ae45eb6]" name="tc01_spot_value_date_after_trade_date" duration-ms="112" started-at="2019-09-08T20:42:21Z" description="SPOT:Value date is after trade date, with valid counterparty, legal entity and currency" finished-at="2019-09-08T20:42:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc01_spot_value_date_after_trade_date -->
-        <test-method status="PASS" signature="tc02_spot_value_date_same_as_trade_date()[pri:0, instance:postAPITests.SpotTradeTests@ae45eb6]" name="tc02_spot_value_date_same_as_trade_date" duration-ms="58" started-at="2019-09-08T17:17:20Z" description="SPOT:Value date is same as trade date" finished-at="2019-09-08T17:17:20Z">
+        <test-method status="PASS" signature="tc02_spot_value_date_same_as_trade_date()[pri:0, instance:postAPITests.SpotTradeTests@ae45eb6]" name="tc02_spot_value_date_same_as_trade_date" duration-ms="58" started-at="2019-09-08T20:42:21Z" description="SPOT:Value date is same as trade date" finished-at="2019-09-08T20:42:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc02_spot_value_date_same_as_trade_date -->
-        <test-method status="PASS" signature="tc03_spot_value_date_before_trade_date()[pri:0, instance:postAPITests.SpotTradeTests@ae45eb6]" name="tc03_spot_value_date_before_trade_date" duration-ms="53" started-at="2019-09-08T17:17:20Z" description="SPOT:Value date is before trade date" finished-at="2019-09-08T17:17:20Z">
+        <test-method status="PASS" signature="tc03_spot_value_date_before_trade_date()[pri:0, instance:postAPITests.SpotTradeTests@ae45eb6]" name="tc03_spot_value_date_before_trade_date" duration-ms="56" started-at="2019-09-08T20:42:21Z" description="SPOT:Value date is before trade date" finished-at="2019-09-08T20:42:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc03_spot_value_date_before_trade_date -->
-        <test-method status="PASS" signature="tc04_spot_check_supported_counterparty()[pri:0, instance:postAPITests.SpotTradeTests@ae45eb6]" name="tc04_spot_check_supported_counterparty" duration-ms="41" started-at="2019-09-08T17:17:20Z" description="SPOT:Check supported counterparty" finished-at="2019-09-08T17:17:20Z">
+        <test-method status="PASS" signature="tc04_spot_check_supported_counterparty()[pri:0, instance:postAPITests.SpotTradeTests@ae45eb6]" name="tc04_spot_check_supported_counterparty" duration-ms="45" started-at="2019-09-08T20:42:21Z" description="SPOT:Check supported counterparty" finished-at="2019-09-08T20:42:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc04_spot_check_supported_counterparty -->
-        <test-method status="PASS" signature="tc05_spot_unsupported_counterparty()[pri:0, instance:postAPITests.SpotTradeTests@ae45eb6]" name="tc05_spot_unsupported_counterparty" duration-ms="52" started-at="2019-09-08T17:17:20Z" description="SPOT:Unsupported counterparty should throw an error" finished-at="2019-09-08T17:17:20Z">
+        <test-method status="PASS" signature="tc05_spot_unsupported_counterparty()[pri:0, instance:postAPITests.SpotTradeTests@ae45eb6]" name="tc05_spot_unsupported_counterparty" duration-ms="62" started-at="2019-09-08T20:42:21Z" description="SPOT:Unsupported counterparty should throw an error" finished-at="2019-09-08T20:42:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc05_spot_unsupported_counterparty -->
-        <test-method status="FAIL" signature="tc06_spot_illegal_entity()[pri:0, instance:postAPITests.SpotTradeTests@ae45eb6]" name="tc06_spot_illegal_entity" duration-ms="35" started-at="2019-09-08T17:17:20Z" description="SPOT:Using an illegal entity should throw an error" finished-at="2019-09-08T17:17:20Z">
+        <test-method status="FAIL" signature="tc06_spot_illegal_entity()[pri:0, instance:postAPITests.SpotTradeTests@ae45eb6]" name="tc06_spot_illegal_entity" duration-ms="54" started-at="2019-09-08T20:42:21Z" description="SPOT:Using an illegal entity should throw an error" finished-at="2019-09-08T20:42:21Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -121,15 +121,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc06_spot_illegal_entity -->
-        <test-method status="PASS" signature="tc07_spot_invalid_currency()[pri:0, instance:postAPITests.SpotTradeTests@ae45eb6]" name="tc07_spot_invalid_currency" duration-ms="43" started-at="2019-09-08T17:17:20Z" description="SPOT:Invalid currencies should throw an error" finished-at="2019-09-08T17:17:20Z">
+        <test-method status="PASS" signature="tc07_spot_invalid_currency()[pri:0, instance:postAPITests.SpotTradeTests@ae45eb6]" name="tc07_spot_invalid_currency" duration-ms="56" started-at="2019-09-08T20:42:21Z" description="SPOT:Invalid currencies should throw an error" finished-at="2019-09-08T20:42:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc07_spot_invalid_currency -->
-        <test-method status="PASS" signature="tc08_spot_weekend_value_date()[pri:0, instance:postAPITests.SpotTradeTests@ae45eb6]" name="tc08_spot_weekend_value_date" duration-ms="38" started-at="2019-09-08T17:17:20Z" description="SPOT:Value date on weekends should throw an error" finished-at="2019-09-08T17:17:20Z">
+        <test-method status="PASS" signature="tc08_spot_weekend_value_date()[pri:0, instance:postAPITests.SpotTradeTests@ae45eb6]" name="tc08_spot_weekend_value_date" duration-ms="48" started-at="2019-09-08T20:42:21Z" description="SPOT:Value date on weekends should throw an error" finished-at="2019-09-08T20:42:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc08_spot_weekend_value_date -->
-        <test-method status="FAIL" signature="tc09_spot_value_date_currency_non_working_day()[pri:0, instance:postAPITests.SpotTradeTests@ae45eb6]" name="tc09_spot_value_date_currency_non_working_day" duration-ms="35" started-at="2019-09-08T17:17:20Z" description="SPOT:Value date on currency non-working day should throw an error" finished-at="2019-09-08T17:17:20Z">
+        <test-method status="FAIL" signature="tc09_spot_value_date_currency_non_working_day()[pri:0, instance:postAPITests.SpotTradeTests@ae45eb6]" name="tc09_spot_value_date_currency_non_working_day" duration-ms="43" started-at="2019-09-08T20:42:21Z" description="SPOT:Value date on currency non-working day should throw an error" finished-at="2019-09-08T20:42:21Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -176,11 +176,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
         </test-method> <!-- tc09_spot_value_date_currency_non_working_day -->
       </class> <!-- postAPITests.SpotTradeTests -->
       <class name="postAPITests.BatchValidation">
-        <test-method status="PASS" signature="setup()[pri:0, instance:postAPITests.BatchValidation@59f99ea]" name="setup" is-config="true" duration-ms="1" started-at="2019-09-08T17:17:21Z" description="Setup API request" finished-at="2019-09-08T17:17:21Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:postAPITests.BatchValidation@59f99ea]" name="setup" is-config="true" duration-ms="1" started-at="2019-09-08T20:42:22Z" description="Setup API request" finished-at="2019-09-08T20:42:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="TC01_batch_request()[pri:0, instance:postAPITests.BatchValidation@59f99ea]" name="TC01_batch_request" duration-ms="29" started-at="2019-09-08T17:17:21Z" description="Run batch request" finished-at="2019-09-08T17:17:21Z">
+        <test-method status="FAIL" signature="TC01_batch_request()[pri:0, instance:postAPITests.BatchValidation@59f99ea]" name="TC01_batch_request" duration-ms="129" started-at="2019-09-08T20:42:22Z" description="Run batch request" finished-at="2019-09-08T20:42:23Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -267,31 +267,31 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
         </test-method> <!-- TC01_batch_request -->
       </class> <!-- postAPITests.BatchValidation -->
       <class name="postAPITests.ForwardTradeTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:postAPITests.ForwardTradeTests@3532ec19]" name="setup" is-config="true" duration-ms="536" started-at="2019-09-08T17:17:17Z" description="Setup API request" finished-at="2019-09-08T17:17:18Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:postAPITests.ForwardTradeTests@3532ec19]" name="setup" is-config="true" duration-ms="539" started-at="2019-09-08T20:42:18Z" description="Setup API request" finished-at="2019-09-08T20:42:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="setup" is-config="true" duration-ms="1" started-at="2019-09-08T17:17:18Z" description="Setup API request" finished-at="2019-09-08T17:17:18Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="setup" is-config="true" duration-ms="1" started-at="2019-09-08T20:42:19Z" description="Setup API request" finished-at="2019-09-08T20:42:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="tc11_forward_value_date_after_trade_date()[pri:0, instance:postAPITests.ForwardTradeTests@3532ec19]" name="tc11_forward_value_date_after_trade_date" duration-ms="33" started-at="2019-09-08T17:17:20Z" description="FORWARD:Value date is after trade date, with valid counterparty, legal entity and currency" finished-at="2019-09-08T17:17:20Z">
+        <test-method status="PASS" signature="tc11_forward_value_date_after_trade_date()[pri:0, instance:postAPITests.ForwardTradeTests@3532ec19]" name="tc11_forward_value_date_after_trade_date" duration-ms="51" started-at="2019-09-08T20:42:21Z" description="FORWARD:Value date is after trade date, with valid counterparty, legal entity and currency" finished-at="2019-09-08T20:42:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc11_forward_value_date_after_trade_date -->
-        <test-method status="PASS" signature="tc12_forward_value_date_same_as_trade_date()[pri:0, instance:postAPITests.ForwardTradeTests@3532ec19]" name="tc12_forward_value_date_same_as_trade_date" duration-ms="51" started-at="2019-09-08T17:17:20Z" description="FORWARD:Value date is same as trade date" finished-at="2019-09-08T17:17:20Z">
+        <test-method status="PASS" signature="tc12_forward_value_date_same_as_trade_date()[pri:0, instance:postAPITests.ForwardTradeTests@3532ec19]" name="tc12_forward_value_date_same_as_trade_date" duration-ms="50" started-at="2019-09-08T20:42:21Z" description="FORWARD:Value date is same as trade date" finished-at="2019-09-08T20:42:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc12_forward_value_date_same_as_trade_date -->
-        <test-method status="PASS" signature="tc13_forward_value_date_before_trade_date()[pri:0, instance:postAPITests.ForwardTradeTests@3532ec19]" name="tc13_forward_value_date_before_trade_date" duration-ms="43" started-at="2019-09-08T17:17:20Z" description="FORWARD:Value date is before trade date" finished-at="2019-09-08T17:17:20Z">
+        <test-method status="PASS" signature="tc13_forward_value_date_before_trade_date()[pri:0, instance:postAPITests.ForwardTradeTests@3532ec19]" name="tc13_forward_value_date_before_trade_date" duration-ms="60" started-at="2019-09-08T20:42:21Z" description="FORWARD:Value date is before trade date" finished-at="2019-09-08T20:42:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc13_forward_value_date_before_trade_date -->
-        <test-method status="PASS" signature="tc14_forward_weekend_value_date()[pri:0, instance:postAPITests.ForwardTradeTests@3532ec19]" name="tc14_forward_weekend_value_date" duration-ms="45" started-at="2019-09-08T17:17:20Z" description="FORWARD:Value date on weekends should throw an error" finished-at="2019-09-08T17:17:20Z">
+        <test-method status="PASS" signature="tc14_forward_weekend_value_date()[pri:0, instance:postAPITests.ForwardTradeTests@3532ec19]" name="tc14_forward_weekend_value_date" duration-ms="48" started-at="2019-09-08T20:42:21Z" description="FORWARD:Value date on weekends should throw an error" finished-at="2019-09-08T20:42:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc14_forward_weekend_value_date -->
-        <test-method status="FAIL" signature="tc15_forward_value_date_currency_non_working_day()[pri:0, instance:postAPITests.ForwardTradeTests@3532ec19]" name="tc15_forward_value_date_currency_non_working_day" duration-ms="46" started-at="2019-09-08T17:17:20Z" description="FORWARD:Value date on currency non-working day should throw an error" finished-at="2019-09-08T17:17:20Z">
+        <test-method status="FAIL" signature="tc15_forward_value_date_currency_non_working_day()[pri:0, instance:postAPITests.ForwardTradeTests@3532ec19]" name="tc15_forward_value_date_currency_non_working_day" duration-ms="43" started-at="2019-09-08T20:42:21Z" description="FORWARD:Value date on currency non-working day should throw an error" finished-at="2019-09-08T20:42:21Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -336,7 +336,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc15_forward_value_date_currency_non_working_day -->
-        <test-method status="FAIL" signature="tc16_invalid_value_date()[pri:0, instance:postAPITests.ForwardTradeTests@3532ec19]" name="tc16_invalid_value_date" duration-ms="50" started-at="2019-09-08T17:17:20Z" description="FORWARD:Invalid value date should throw an error" finished-at="2019-09-08T17:17:20Z">
+        <test-method status="FAIL" signature="tc16_invalid_value_date()[pri:0, instance:postAPITests.ForwardTradeTests@3532ec19]" name="tc16_invalid_value_date" duration-ms="67" started-at="2019-09-08T20:42:21Z" description="FORWARD:Invalid value date should throw an error" finished-at="2019-09-08T20:42:21Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -383,11 +383,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
         </test-method> <!-- tc16_invalid_value_date -->
       </class> <!-- postAPITests.ForwardTradeTests -->
       <class name="postAPITests.OptionTradeTests">
-        <test-method status="PASS" signature="tc17_options_american_exerciseStartDate_after_tradeDate_before_expiryDate()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc17_options_american_exerciseStartDate_after_tradeDate_before_expiryDate" duration-ms="36" started-at="2019-09-08T17:17:20Z" description="OPTIONS:For American style, exerciseStartDate is after trade date but before the expiry date" finished-at="2019-09-08T17:17:20Z">
+        <test-method status="PASS" signature="tc17_options_american_exerciseStartDate_after_tradeDate_before_expiryDate()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc17_options_american_exerciseStartDate_after_tradeDate_before_expiryDate" duration-ms="78" started-at="2019-09-08T20:42:21Z" description="OPTIONS:For American style, exerciseStartDate is after trade date but before the expiry date" finished-at="2019-09-08T20:42:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc17_options_american_exerciseStartDate_after_tradeDate_before_expiryDate -->
-        <test-method status="FAIL" signature="tc18_options_american_excerciseStartDate_before_tradeDate_and_expiryDate()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc18_options_american_excerciseStartDate_before_tradeDate_and_expiryDate" duration-ms="53" started-at="2019-09-08T17:17:20Z" description="OPTIONS:For American style, exerciseStartDate before trade date &amp; expiry date should throw error" finished-at="2019-09-08T17:17:20Z">
+        <test-method status="FAIL" signature="tc18_options_american_excerciseStartDate_before_tradeDate_and_expiryDate()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc18_options_american_excerciseStartDate_before_tradeDate_and_expiryDate" duration-ms="230" started-at="2019-09-08T20:42:21Z" description="OPTIONS:For American style, exerciseStartDate before trade date &amp; expiry date should throw error" finished-at="2019-09-08T20:42:22Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -432,7 +432,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc18_options_american_excerciseStartDate_before_tradeDate_and_expiryDate -->
-        <test-method status="FAIL" signature="tc19_options_american_excerciseStartDate_after_tradeDate_and_expiryDate()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc19_options_american_excerciseStartDate_after_tradeDate_and_expiryDate" duration-ms="35" started-at="2019-09-08T17:17:20Z" description="OPTIONS:For American style, exerciseStartDate after trade date &amp; expiry date should throw error" finished-at="2019-09-08T17:17:20Z">
+        <test-method status="FAIL" signature="tc19_options_american_excerciseStartDate_after_tradeDate_and_expiryDate()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc19_options_american_excerciseStartDate_after_tradeDate_and_expiryDate" duration-ms="54" started-at="2019-09-08T20:42:22Z" description="OPTIONS:For American style, exerciseStartDate after trade date &amp; expiry date should throw error" finished-at="2019-09-08T20:42:22Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -477,7 +477,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc19_options_american_excerciseStartDate_after_tradeDate_and_expiryDate -->
-        <test-method status="FAIL" signature="tc20_options_american_deliveryDate_before_premiumDate()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc20_options_american_deliveryDate_before_premiumDate" duration-ms="49" started-at="2019-09-08T17:17:20Z" description="OPTIONS:For American style, deliveryDate before premiumDate should throw error" finished-at="2019-09-08T17:17:20Z">
+        <test-method status="FAIL" signature="tc20_options_american_deliveryDate_before_premiumDate()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc20_options_american_deliveryDate_before_premiumDate" duration-ms="57" started-at="2019-09-08T20:42:22Z" description="OPTIONS:For American style, deliveryDate before premiumDate should throw error" finished-at="2019-09-08T20:42:22Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -520,19 +520,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc20_options_american_deliveryDate_before_premiumDate -->
-        <test-method status="PASS" signature="tc21_options_american_expiryDate_on_weekend()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc21_options_american_expiryDate_on_weekend" duration-ms="42" started-at="2019-09-08T17:17:20Z" description="OPTIONS:For American style, expiryDate on weekend should throw error" finished-at="2019-09-08T17:17:20Z">
+        <test-method status="PASS" signature="tc21_options_american_expiryDate_on_weekend()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc21_options_american_expiryDate_on_weekend" duration-ms="49" started-at="2019-09-08T20:42:22Z" description="OPTIONS:For American style, expiryDate on weekend should throw error" finished-at="2019-09-08T20:42:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc21_options_american_expiryDate_on_weekend -->
-        <test-method status="PASS" signature="tc22_options_american_expiryDate_before_tradeDate()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc22_options_american_expiryDate_before_tradeDate" duration-ms="41" started-at="2019-09-08T17:17:20Z" description="OPTIONS:For American style, expiryDate before tradeDate should throw error" finished-at="2019-09-08T17:17:20Z">
+        <test-method status="PASS" signature="tc22_options_american_expiryDate_before_tradeDate()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc22_options_american_expiryDate_before_tradeDate" duration-ms="41" started-at="2019-09-08T20:42:22Z" description="OPTIONS:For American style, expiryDate before tradeDate should throw error" finished-at="2019-09-08T20:42:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc22_options_american_expiryDate_before_tradeDate -->
-        <test-method status="PASS" signature="tc23_options_american_expiryDate_after_deliveryDate()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc23_options_american_expiryDate_after_deliveryDate" duration-ms="49" started-at="2019-09-08T17:17:20Z" description="OPTIONS:For American style, expiryDate after deliveryDate should throw error" finished-at="2019-09-08T17:17:21Z">
+        <test-method status="PASS" signature="tc23_options_american_expiryDate_after_deliveryDate()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc23_options_american_expiryDate_after_deliveryDate" duration-ms="51" started-at="2019-09-08T20:42:22Z" description="OPTIONS:For American style, expiryDate after deliveryDate should throw error" finished-at="2019-09-08T20:42:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc23_options_american_expiryDate_after_deliveryDate -->
-        <test-method status="FAIL" signature="tc24_options_american_missing_excerciseStartDate()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc24_options_american_missing_excerciseStartDate" duration-ms="43" started-at="2019-09-08T17:17:21Z" description="OPTIONS:For American style, missing exerciseStartDate should throw error" finished-at="2019-09-08T17:17:21Z">
+        <test-method status="FAIL" signature="tc24_options_american_missing_excerciseStartDate()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc24_options_american_missing_excerciseStartDate" duration-ms="55" started-at="2019-09-08T20:42:22Z" description="OPTIONS:For American style, missing exerciseStartDate should throw error" finished-at="2019-09-08T20:42:22Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -577,7 +577,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc24_options_american_missing_excerciseStartDate -->
-        <test-method status="FAIL" signature="tc25_options_american_invalid_tradeDate()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc25_options_american_invalid_tradeDate" duration-ms="42" started-at="2019-09-08T17:17:21Z" description="OPTIONS:For American style, invalid tradeDate should throw error" finished-at="2019-09-08T17:17:21Z">
+        <test-method status="FAIL" signature="tc25_options_american_invalid_tradeDate()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc25_options_american_invalid_tradeDate" duration-ms="43" started-at="2019-09-08T20:42:22Z" description="OPTIONS:For American style, invalid tradeDate should throw error" finished-at="2019-09-08T20:42:22Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -622,15 +622,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc25_options_american_invalid_tradeDate -->
-        <test-method status="PASS" signature="tc26_options_european_expiryDate_premiumDate_before_deliveryDate()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc26_options_european_expiryDate_premiumDate_before_deliveryDate" duration-ms="40" started-at="2019-09-08T17:17:21Z" description="OPTIONS:For European style, expiryDate &amp; premiumDate should be before deliveryDate" finished-at="2019-09-08T17:17:21Z">
+        <test-method status="PASS" signature="tc26_options_european_expiryDate_premiumDate_before_deliveryDate()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc26_options_european_expiryDate_premiumDate_before_deliveryDate" duration-ms="53" started-at="2019-09-08T20:42:22Z" description="OPTIONS:For European style, expiryDate &amp; premiumDate should be before deliveryDate" finished-at="2019-09-08T20:42:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc26_options_european_expiryDate_premiumDate_before_deliveryDate -->
-        <test-method status="PASS" signature="tc27_options_invalid_style()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc27_options_invalid_style" duration-ms="39" started-at="2019-09-08T17:17:21Z" description="OPTIONS:For invalid style, API should throw error" finished-at="2019-09-08T17:17:21Z">
+        <test-method status="PASS" signature="tc27_options_invalid_style()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc27_options_invalid_style" duration-ms="47" started-at="2019-09-08T20:42:22Z" description="OPTIONS:For invalid style, API should throw error" finished-at="2019-09-08T20:42:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc27_options_invalid_style -->
-        <test-method status="FAIL" signature="tc28_options_european_premiumDate_same_as_deliveryDate()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc28_options_european_premiumDate_same_as_deliveryDate" duration-ms="53" started-at="2019-09-08T17:17:21Z" description="OPTIONS:For European style, when premiumDate &amp; deliveryDate is same, API should throw error" finished-at="2019-09-08T17:17:21Z">
+        <test-method status="FAIL" signature="tc28_options_european_premiumDate_same_as_deliveryDate()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc28_options_european_premiumDate_same_as_deliveryDate" duration-ms="60" started-at="2019-09-08T20:42:22Z" description="OPTIONS:For European style, when premiumDate &amp; deliveryDate is same, API should throw error" finished-at="2019-09-08T20:42:22Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -673,15 +673,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc28_options_european_premiumDate_same_as_deliveryDate -->
-        <test-method status="PASS" signature="tc29_options_european_expiryDate_after_premiumDate_before_deliveryDate()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc29_options_european_expiryDate_after_premiumDate_before_deliveryDate" duration-ms="43" started-at="2019-09-08T17:17:21Z" description="OPTIONS:For European style, expiryDate is after premiumDate but before deliveryDate" finished-at="2019-09-08T17:17:21Z">
+        <test-method status="PASS" signature="tc29_options_european_expiryDate_after_premiumDate_before_deliveryDate()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc29_options_european_expiryDate_after_premiumDate_before_deliveryDate" duration-ms="40" started-at="2019-09-08T20:42:22Z" description="OPTIONS:For European style, expiryDate is after premiumDate but before deliveryDate" finished-at="2019-09-08T20:42:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc29_options_european_expiryDate_after_premiumDate_before_deliveryDate -->
-        <test-method status="PASS" signature="tc30_options_european_expiryDate_premiumDate_after_deliveryDate()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc30_options_european_expiryDate_premiumDate_after_deliveryDate" duration-ms="49" started-at="2019-09-08T17:17:21Z" description="OPTIONS:For European style, expiryDate &amp; premiumDate is after deliveryDate" finished-at="2019-09-08T17:17:21Z">
+        <test-method status="PASS" signature="tc30_options_european_expiryDate_premiumDate_after_deliveryDate()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc30_options_european_expiryDate_premiumDate_after_deliveryDate" duration-ms="105" started-at="2019-09-08T20:42:22Z" description="OPTIONS:For European style, expiryDate &amp; premiumDate is after deliveryDate" finished-at="2019-09-08T20:42:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc30_options_european_expiryDate_premiumDate_after_deliveryDate -->
-        <test-method status="FAIL" signature="tc31_options_european_invalid_deliveryDate()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc31_options_european_invalid_deliveryDate" duration-ms="32" started-at="2019-09-08T17:17:21Z" description="OPTIONS:For European style, invalid deliveryDate should throw error" finished-at="2019-09-08T17:17:21Z">
+        <test-method status="FAIL" signature="tc31_options_european_invalid_deliveryDate()[pri:0, instance:postAPITests.OptionTradeTests@68c4039c]" name="tc31_options_european_invalid_deliveryDate" duration-ms="41" started-at="2019-09-08T20:42:22Z" description="OPTIONS:For European style, invalid deliveryDate should throw error" finished-at="2019-09-08T20:42:22Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
