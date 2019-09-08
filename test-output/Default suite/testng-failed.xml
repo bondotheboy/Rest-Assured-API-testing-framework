@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="postAPITests.OptionTradeTests">
+        <methods>
+          <include name="tc28_options_european_premiumDate_same_as_deliveryDate"/>
+          <include name="tc18_options_american_excerciseStartDate_before_tradeDate_and_expiryDate"/>
+          <include name="setup"/>
+          <include name="tc19_options_american_excerciseStartDate_after_tradeDate_and_expiryDate"/>
+          <include name="tc25_options_american_invalid_tradeDate"/>
+          <include name="tc20_options_american_deliveryDate_before_premiumDate"/>
+          <include name="tc31_options_european_invalid_deliveryDate"/>
+          <include name="tc24_options_american_missing_excerciseStartDate"/>
+        </methods>
+      </class> <!-- postAPITests.OptionTradeTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

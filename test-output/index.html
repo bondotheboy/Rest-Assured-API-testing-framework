@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 13 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Workspace\APITesting\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">32 methods, 13 failed,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.BatchValidation" hash-for-method="TC01_batch_request">TC01_batch_request</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.SpotTradeTests" hash-for-method="tc010_spot_invalid_value_date">tc010_spot_invalid_value_date</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.SpotTradeTests" hash-for-method="tc06_spot_illegal_entity">tc06_spot_illegal_entity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.SpotTradeTests" hash-for-method="tc09_spot_value_date_currency_non_working_day">tc09_spot_value_date_currency_non_working_day</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.ForwardTradeTests" hash-for-method="tc15_forward_value_date_currency_non_working_day">tc15_forward_value_date_currency_non_working_day</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.ForwardTradeTests" hash-for-method="tc16_invalid_value_date">tc16_invalid_value_date</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.OptionTradeTests" hash-for-method="tc18_options_american_excerciseStartDate_before_tradeDate_and_expiryDate">tc18_options_american_excerciseStartDate_before_tradeDate_and_expiryDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.OptionTradeTests" hash-for-method="tc19_options_american_excerciseStartDate_after_tradeDate_and_expiryDate">tc19_options_american_excerciseStartDate_after_tradeDate_and_expiryDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.OptionTradeTests" hash-for-method="tc20_options_american_deliveryDate_before_premiumDate">tc20_options_american_deliveryDate_before_premiumDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.OptionTradeTests" hash-for-method="tc24_options_american_missing_excerciseStartDate">tc24_options_american_missing_excerciseStartDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.OptionTradeTests" hash-for-method="tc25_options_american_invalid_tradeDate">tc25_options_american_invalid_tradeDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.OptionTradeTests" hash-for-method="tc28_options_european_premiumDate_same_as_deliveryDate">tc28_options_european_premiumDate_same_as_deliveryDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.OptionTradeTests" hash-for-method="tc31_options_european_invalid_deliveryDate">tc31_options_european_invalid_deliveryDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.SpotTradeTests" hash-for-method="tc01_spot_value_date_after_trade_date">tc01_spot_value_date_after_trade_date</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.SpotTradeTests" hash-for-method="tc02_spot_value_date_same_as_trade_date">tc02_spot_value_date_same_as_trade_date</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.SpotTradeTests" hash-for-method="tc03_spot_value_date_before_trade_date">tc03_spot_value_date_before_trade_date</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.SpotTradeTests" hash-for-method="tc04_spot_check_supported_counterparty">tc04_spot_check_supported_counterparty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.SpotTradeTests" hash-for-method="tc05_spot_unsupported_counterparty">tc05_spot_unsupported_counterparty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.SpotTradeTests" hash-for-method="tc07_spot_invalid_currency">tc07_spot_invalid_currency</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.SpotTradeTests" hash-for-method="tc08_spot_weekend_value_date">tc08_spot_weekend_value_date</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.ForwardTradeTests" hash-for-method="tc11_forward_value_date_after_trade_date">tc11_forward_value_date_after_trade_date</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.ForwardTradeTests" hash-for-method="tc12_forward_value_date_same_as_trade_date">tc12_forward_value_date_same_as_trade_date</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.ForwardTradeTests" hash-for-method="tc13_forward_value_date_before_trade_date">tc13_forward_value_date_before_trade_date</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.ForwardTradeTests" hash-for-method="tc14_forward_weekend_value_date">tc14_forward_weekend_value_date</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.OptionTradeTests" hash-for-method="tc17_options_american_exerciseStartDate_after_tradeDate_before_expiryDate">tc17_options_american_exerciseStartDate_after_tradeDate_before_expiryDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.OptionTradeTests" hash-for-method="tc21_options_american_expiryDate_on_weekend">tc21_options_american_expiryDate_on_weekend</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.OptionTradeTests" hash-for-method="tc22_options_american_expiryDate_before_tradeDate">tc22_options_american_expiryDate_before_tradeDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.OptionTradeTests" hash-for-method="tc23_options_american_expiryDate_after_deliveryDate">tc23_options_american_expiryDate_after_deliveryDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.OptionTradeTests" hash-for-method="tc26_options_european_expiryDate_premiumDate_before_deliveryDate">tc26_options_european_expiryDate_premiumDate_before_deliveryDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.OptionTradeTests" hash-for-method="tc27_options_invalid_style">tc27_options_invalid_style</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.OptionTradeTests" hash-for-method="tc29_options_european_expiryDate_after_premiumDate_before_deliveryDate">tc29_options_european_expiryDate_after_premiumDate_before_deliveryDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="postAPITests.OptionTradeTests" hash-for-method="tc30_options_european_expiryDate_premiumDate_after_deliveryDate">tc30_options_european_expiryDate_premiumDate_after_deliveryDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">postAPITests.ForwardTradeTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc15_forward_value_date_currency_non_working_day">
+                  </a> <!-- tc15_forward_value_date_currency_non_working_day -->
+                  <span class="method-name">tc15_forward_value_date_currency_non_working_day</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Expected and actual post response status doesn&apos;t match expected [ERROR] but found [SUCCESS],
+	Expected and actual Post response messages doesn&apos;t match expected [true] but found [false]
+	at postAPITests.ForwardTradeTests.validate(ForwardTradeTests.java:104)
+	at postAPITests.ForwardTradeTests.tc15_forward_value_date_currency_non_working_day(ForwardTradeTests.java:80)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(FORWARD:Value date on currency non-working day should throw an error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc16_invalid_value_date">
+                  </a> <!-- tc16_invalid_value_date -->
+                  <span class="method-name">tc16_invalid_value_date</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Expected and actual post response status doesn&apos;t match expected [ERROR] but found [SUCCESS],
+	Expected and actual Post response messages doesn&apos;t match expected [true] but found [false]
+	at postAPITests.ForwardTradeTests.validate(ForwardTradeTests.java:104)
+	at postAPITests.ForwardTradeTests.tc16_invalid_value_date(ForwardTradeTests.java:91)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(FORWARD:Invalid value date should throw an error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">postAPITests.BatchValidation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC01_batch_request">
+                  </a> <!-- TC01_batch_request -->
+                  <span class="method-name">TC01_batch_request</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Status mismatch ovserved for TC --&gt; tc06_spot_illegal_entity expected [ERROR] but found [SUCCESS],
+	Message mismatch observed for TC --&gt; tc06_spot_illegal_entity expected [true] but found [false],
+	Status mismatch ovserved for TC --&gt; tc09_spot_value_date_currency_non_working_day expected [ERROR] but found [SUCCESS],
+	Message mismatch observed for TC --&gt; tc09_spot_value_date_currency_non_working_day expected [true] but found [false],
+	Status mismatch ovserved for TC --&gt; tc010_spot_invalid_value_date expected [ERROR] but found [SUCCESS],
+	Message mismatch observed for TC --&gt; tc010_spot_invalid_value_date expected [true] but found [false],
+	Status mismatch ovserved for TC --&gt; tc15_forward_value_date_currency_non_working_day expected [ERROR] but found [SUCCESS],
+	Message mismatch observed for TC --&gt; tc15_forward_value_date_currency_non_working_day expected [true] but found [false],
+	Status mismatch ovserved for TC --&gt; tc16_invalid_value_date expected [ERROR] but found [SUCCESS],
+	Message mismatch observed for TC --&gt; tc16_invalid_value_date expected [true] but found [false],
+	Status mismatch ovserved for TC --&gt; tc18_options_american_excerciseStartDate_before_tradeDate_and_expiryDate expected [ERROR] but found [SUCCESS],
+	Message mismatch observed for TC --&gt; tc18_options_american_excerciseStartDate_before_tradeDate_and_expiryDate expected [true] but found [false],
+	Status mismatch ovserved for TC --&gt; tc19_options_american_excerciseStartDate_after_tradeDate_and_expiryDate expected [ERROR] but found [SUCCESS],
+	Message mismatch observed for TC --&gt; tc19_options_american_excerciseStartDate_after_tradeDate_and_expiryDate expected [true] but found [false],
+	Message mismatch observed for TC --&gt; tc20_options_american_deliveryDate_before_premiumDate expected [true] but found [false],
+	Status mismatch ovserved for TC --&gt; tc24_options_american_missing_excerciseStartDate expected [ERROR] but found [SUCCESS],
+	Message mismatch observed for TC --&gt; tc24_options_american_missing_excerciseStartDate expected [true] but found [false],
+	Status mismatch ovserved for TC --&gt; tc25_options_american_invalid_tradeDate expected [ERROR] but found [SUCCESS],
+	Message mismatch observed for TC --&gt; tc25_options_american_invalid_tradeDate expected [true] but found [false],
+	Message mismatch observed for TC --&gt; tc28_options_european_premiumDate_same_as_deliveryDate expected [true] but found [false],
+	Status mismatch ovserved for TC --&gt; tc31_options_european_invalid_deliveryDate expected [ERROR] but found [SUCCESS],
+	Message mismatch observed for TC --&gt; tc31_options_european_invalid_deliveryDate expected [true] but found [false]
+	at postAPITests.BatchValidation.validate(BatchValidation.java:56)
+	at postAPITests.BatchValidation.TC01_batch_request(BatchValidation.java:34)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Run batch request)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">postAPITests.OptionTradeTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc18_options_american_excerciseStartDate_before_tradeDate_and_expiryDate">
+                  </a> <!-- tc18_options_american_excerciseStartDate_before_tradeDate_and_expiryDate -->
+                  <span class="method-name">tc18_options_american_excerciseStartDate_before_tradeDate_and_expiryDate</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Expected and actual post response status doesn&apos;t match expected [ERROR] but found [SUCCESS],
+	Expected and actual Post response messages doesn&apos;t match expected [true] but found [false]
+	at postAPITests.OptionTradeTests.validate(OptionTradeTests.java:204)
+	at postAPITests.OptionTradeTests.tc18_options_american_excerciseStartDate_before_tradeDate_and_expiryDate(OptionTradeTests.java:46)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(OPTIONS:For American style, exerciseStartDate before trade date & expiry date should throw error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc19_options_american_excerciseStartDate_after_tradeDate_and_expiryDate">
+                  </a> <!-- tc19_options_american_excerciseStartDate_after_tradeDate_and_expiryDate -->
+                  <span class="method-name">tc19_options_american_excerciseStartDate_after_tradeDate_and_expiryDate</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Expected and actual post response status doesn&apos;t match expected [ERROR] but found [SUCCESS],
+	Expected and actual Post response messages doesn&apos;t match expected [true] but found [false]
+	at postAPITests.OptionTradeTests.validate(OptionTradeTests.java:204)
+	at postAPITests.OptionTradeTests.tc19_options_american_excerciseStartDate_after_tradeDate_and_expiryDate(OptionTradeTests.java:57)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(OPTIONS:For American style, exerciseStartDate after trade date & expiry date should throw error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc20_options_american_deliveryDate_before_premiumDate">
+                  </a> <!-- tc20_options_american_deliveryDate_before_premiumDate -->
+                  <span class="method-name">tc20_options_american_deliveryDate_before_premiumDate</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Expected and actual Post response messages doesn&apos;t match expected [true] but found [false]
+	at postAPITests.OptionTradeTests.validate(OptionTradeTests.java:204)
+	at postAPITests.OptionTradeTests.tc20_options_american_deliveryDate_before_premiumDate(OptionTradeTests.java:68)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(OPTIONS:For American style, deliveryDate before premiumDate should throw error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc24_options_american_missing_excerciseStartDate">
+                  </a> <!-- tc24_options_american_missing_excerciseStartDate -->
+                  <span class="method-name">tc24_options_american_missing_excerciseStartDate</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Expected and actual post response status doesn&apos;t match expected [ERROR] but found [SUCCESS],
+	Expected and actual Post response messages doesn&apos;t match expected [true] but found [false]
+	at postAPITests.OptionTradeTests.validate(OptionTradeTests.java:204)
+	at postAPITests.OptionTradeTests.tc24_options_american_missing_excerciseStartDate(OptionTradeTests.java:112)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(OPTIONS:For American style, missing exerciseStartDate should throw error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc25_options_american_invalid_tradeDate">
+                  </a> <!-- tc25_options_american_invalid_tradeDate -->
+                  <span class="method-name">tc25_options_american_invalid_tradeDate</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Expected and actual post response status doesn&apos;t match expected [ERROR] but found [SUCCESS],
+	Expected and actual Post response messages doesn&apos;t match expected [true] but found [false]
+	at postAPITests.OptionTradeTests.validate(OptionTradeTests.java:204)
+	at postAPITests.OptionTradeTests.tc25_options_american_invalid_tradeDate(OptionTradeTests.java:123)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(OPTIONS:For American style, invalid tradeDate should throw error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc28_options_european_premiumDate_same_as_deliveryDate">
+                  </a> <!-- tc28_options_european_premiumDate_same_as_deliveryDate -->
+                  <span class="method-name">tc28_options_european_premiumDate_same_as_deliveryDate</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Expected and actual Post response messages doesn&apos;t match expected [true] but found [false]
+	at postAPITests.OptionTradeTests.validate(OptionTradeTests.java:204)
+	at postAPITests.OptionTradeTests.tc28_options_european_premiumDate_same_as_deliveryDate(OptionTradeTests.java:157)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(OPTIONS:For European style, when premiumDate & deliveryDate is same, API should throw error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc31_options_european_invalid_deliveryDate">
+                  </a> <!-- tc31_options_european_invalid_deliveryDate -->
+                  <span class="method-name">tc31_options_european_invalid_deliveryDate</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Expected and actual post response status doesn&apos;t match expected [ERROR] but found [SUCCESS],
+	Expected and actual Post response messages doesn&apos;t match expected [true] but found [false]
+	at postAPITests.OptionTradeTests.validate(OptionTradeTests.java:204)
+	at postAPITests.OptionTradeTests.tc31_options_european_invalid_deliveryDate(OptionTradeTests.java:191)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(OPTIONS:For European style, invalid deliveryDate should throw error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">postAPITests.SpotTradeTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc010_spot_invalid_value_date">
+                  </a> <!-- tc010_spot_invalid_value_date -->
+                  <span class="method-name">tc010_spot_invalid_value_date</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Expected and actual post response status doesn&apos;t match expected [ERROR] but found [SUCCESS],
+	Expected and actual Post response messages doesn&apos;t match expected [true] but found [false]
+	at postAPITests.SpotTradeTests.validate(SpotTradeTests.java:148)
+	at postAPITests.SpotTradeTests.tc010_spot_invalid_value_date(SpotTradeTests.java:135)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(SPOT:Invalid Value date should throw an error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc06_spot_illegal_entity">
+                  </a> <!-- tc06_spot_illegal_entity -->
+                  <span class="method-name">tc06_spot_illegal_entity</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Expected and actual post response status doesn&apos;t match expected [ERROR] but found [SUCCESS],
+	Expected and actual Post response messages doesn&apos;t match expected [true] but found [false]
+	at postAPITests.SpotTradeTests.validate(SpotTradeTests.java:148)
+	at postAPITests.SpotTradeTests.tc06_spot_illegal_entity(SpotTradeTests.java:91)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(SPOT:Using an illegal entity should throw an error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc09_spot_value_date_currency_non_working_day">
+                  </a> <!-- tc09_spot_value_date_currency_non_working_day -->
+                  <span class="method-name">tc09_spot_value_date_currency_non_working_day</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Expected and actual post response status doesn&apos;t match expected [ERROR] but found [SUCCESS],
+	Expected and actual Post response messages doesn&apos;t match expected [true] but found [false]
+	at postAPITests.SpotTradeTests.validate(SpotTradeTests.java:148)
+	at postAPITests.SpotTradeTests.tc09_spot_value_date_currency_non_working_day(SpotTradeTests.java:124)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(SPOT:Value date on currency non-working day should throw an error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">postAPITests.ForwardTradeTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc11_forward_value_date_after_trade_date">
+                  </a> <!-- tc11_forward_value_date_after_trade_date -->
+                  <span class="method-name">tc11_forward_value_date_after_trade_date</span>
+                  <em>
+(FORWARD:Value date is after trade date, with valid counterparty, legal entity and currency)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc12_forward_value_date_same_as_trade_date">
+                  </a> <!-- tc12_forward_value_date_same_as_trade_date -->
+                  <span class="method-name">tc12_forward_value_date_same_as_trade_date</span>
+                  <em>
+(FORWARD:Value date is same as trade date)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc13_forward_value_date_before_trade_date">
+                  </a> <!-- tc13_forward_value_date_before_trade_date -->
+                  <span class="method-name">tc13_forward_value_date_before_trade_date</span>
+                  <em>
+(FORWARD:Value date is before trade date)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc14_forward_weekend_value_date">
+                  </a> <!-- tc14_forward_weekend_value_date -->
+                  <span class="method-name">tc14_forward_weekend_value_date</span>
+                  <em>
+(FORWARD:Value date on weekends should throw an error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">postAPITests.OptionTradeTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc17_options_american_exerciseStartDate_after_tradeDate_before_expiryDate">
+                  </a> <!-- tc17_options_american_exerciseStartDate_after_tradeDate_before_expiryDate -->
+                  <span class="method-name">tc17_options_american_exerciseStartDate_after_tradeDate_before_expiryDate</span>
+                  <em>
+(OPTIONS:For American style, exerciseStartDate is after trade date but before the expiry date)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc21_options_american_expiryDate_on_weekend">
+                  </a> <!-- tc21_options_american_expiryDate_on_weekend -->
+                  <span class="method-name">tc21_options_american_expiryDate_on_weekend</span>
+                  <em>
+(OPTIONS:For American style, expiryDate on weekend should throw error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc22_options_american_expiryDate_before_tradeDate">
+                  </a> <!-- tc22_options_american_expiryDate_before_tradeDate -->
+                  <span class="method-name">tc22_options_american_expiryDate_before_tradeDate</span>
+                  <em>
+(OPTIONS:For American style, expiryDate before tradeDate should throw error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc23_options_american_expiryDate_after_deliveryDate">
+                  </a> <!-- tc23_options_american_expiryDate_after_deliveryDate -->
+                  <span class="method-name">tc23_options_american_expiryDate_after_deliveryDate</span>
+                  <em>
+(OPTIONS:For American style, expiryDate after deliveryDate should throw error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc26_options_european_expiryDate_premiumDate_before_deliveryDate">
+                  </a> <!-- tc26_options_european_expiryDate_premiumDate_before_deliveryDate -->
+                  <span class="method-name">tc26_options_european_expiryDate_premiumDate_before_deliveryDate</span>
+                  <em>
+(OPTIONS:For European style, expiryDate & premiumDate should be before deliveryDate)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc27_options_invalid_style">
+                  </a> <!-- tc27_options_invalid_style -->
+                  <span class="method-name">tc27_options_invalid_style</span>
+                  <em>
+(OPTIONS:For invalid style, API should throw error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc29_options_european_expiryDate_after_premiumDate_before_deliveryDate">
+                  </a> <!-- tc29_options_european_expiryDate_after_premiumDate_before_deliveryDate -->
+                  <span class="method-name">tc29_options_european_expiryDate_after_premiumDate_before_deliveryDate</span>
+                  <em>
+(OPTIONS:For European style, expiryDate is after premiumDate but before deliveryDate)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc30_options_european_expiryDate_premiumDate_after_deliveryDate">
+                  </a> <!-- tc30_options_european_expiryDate_premiumDate_after_deliveryDate -->
+                  <span class="method-name">tc30_options_european_expiryDate_premiumDate_after_deliveryDate</span>
+                  <em>
+(OPTIONS:For European style, expiryDate & premiumDate is after deliveryDate)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">postAPITests.SpotTradeTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc01_spot_value_date_after_trade_date">
+                  </a> <!-- tc01_spot_value_date_after_trade_date -->
+                  <span class="method-name">tc01_spot_value_date_after_trade_date</span>
+                  <em>
+(SPOT:Value date is after trade date, with valid counterparty, legal entity and currency)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc02_spot_value_date_same_as_trade_date">
+                  </a> <!-- tc02_spot_value_date_same_as_trade_date -->
+                  <span class="method-name">tc02_spot_value_date_same_as_trade_date</span>
+                  <em>
+(SPOT:Value date is same as trade date)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc03_spot_value_date_before_trade_date">
+                  </a> <!-- tc03_spot_value_date_before_trade_date -->
+                  <span class="method-name">tc03_spot_value_date_before_trade_date</span>
+                  <em>
+(SPOT:Value date is before trade date)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc04_spot_check_supported_counterparty">
+                  </a> <!-- tc04_spot_check_supported_counterparty -->
+                  <span class="method-name">tc04_spot_check_supported_counterparty</span>
+                  <em>
+(SPOT:Check supported counterparty)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc05_spot_unsupported_counterparty">
+                  </a> <!-- tc05_spot_unsupported_counterparty -->
+                  <span class="method-name">tc05_spot_unsupported_counterparty</span>
+                  <em>
+(SPOT:Unsupported counterparty should throw an error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc07_spot_invalid_currency">
+                  </a> <!-- tc07_spot_invalid_currency -->
+                  <span class="method-name">tc07_spot_invalid_currency</span>
+                  <em>
+(SPOT:Invalid currencies should throw an error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc08_spot_weekend_value_date">
+                  </a> <!-- tc08_spot_weekend_value_date -->
+                  <span class="method-name">tc08_spot_weekend_value_date</span>
+                  <em>
+(SPOT:Value date on weekends should throw an error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Workspace\APITesting\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;postAPITests.SpotTradeTests&quot;/&gt;
+      &lt;class name=&quot;postAPITests.ForwardTradeTests&quot;/&gt;
+      &lt;class name=&quot;postAPITests.OptionTradeTests&quot;/&gt;
+      &lt;class name=&quot;postAPITests.BatchValidation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(32);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'tc010_spot_invalid_value_date')
+data.setCell(0, 2, 'postAPITests.SpotTradeTests')
+data.setCell(0, 3, 1755);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'tc01_spot_value_date_after_trade_date')
+data.setCell(1, 2, 'postAPITests.SpotTradeTests')
+data.setCell(1, 3, 86);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'tc02_spot_value_date_same_as_trade_date')
+data.setCell(2, 2, 'postAPITests.SpotTradeTests')
+data.setCell(2, 3, 58);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'tc03_spot_value_date_before_trade_date')
+data.setCell(3, 2, 'postAPITests.SpotTradeTests')
+data.setCell(3, 3, 53);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'tc28_options_european_premiumDate_same_as_deliveryDate')
+data.setCell(4, 2, 'postAPITests.OptionTradeTests')
+data.setCell(4, 3, 53);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'tc18_options_american_excerciseStartDate_before_tradeDate_and_expiryDate')
+data.setCell(5, 2, 'postAPITests.OptionTradeTests')
+data.setCell(5, 3, 53);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'tc05_spot_unsupported_counterparty')
+data.setCell(6, 2, 'postAPITests.SpotTradeTests')
+data.setCell(6, 3, 52);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'tc12_forward_value_date_same_as_trade_date')
+data.setCell(7, 2, 'postAPITests.ForwardTradeTests')
+data.setCell(7, 3, 51);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'tc16_invalid_value_date')
+data.setCell(8, 2, 'postAPITests.ForwardTradeTests')
+data.setCell(8, 3, 50);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'tc30_options_european_expiryDate_premiumDate_after_deliveryDate')
+data.setCell(9, 2, 'postAPITests.OptionTradeTests')
+data.setCell(9, 3, 49);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'tc23_options_american_expiryDate_after_deliveryDate')
+data.setCell(10, 2, 'postAPITests.OptionTradeTests')
+data.setCell(10, 3, 49);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'tc20_options_american_deliveryDate_before_premiumDate')
+data.setCell(11, 2, 'postAPITests.OptionTradeTests')
+data.setCell(11, 3, 49);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'tc15_forward_value_date_currency_non_working_day')
+data.setCell(12, 2, 'postAPITests.ForwardTradeTests')
+data.setCell(12, 3, 46);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'tc14_forward_weekend_value_date')
+data.setCell(13, 2, 'postAPITests.ForwardTradeTests')
+data.setCell(13, 3, 45);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'tc29_options_european_expiryDate_after_premiumDate_before_deliveryDate')
+data.setCell(14, 2, 'postAPITests.OptionTradeTests')
+data.setCell(14, 3, 43);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'tc13_forward_value_date_before_trade_date')
+data.setCell(15, 2, 'postAPITests.ForwardTradeTests')
+data.setCell(15, 3, 43);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'tc07_spot_invalid_currency')
+data.setCell(16, 2, 'postAPITests.SpotTradeTests')
+data.setCell(16, 3, 43);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'tc24_options_american_missing_excerciseStartDate')
+data.setCell(17, 2, 'postAPITests.OptionTradeTests')
+data.setCell(17, 3, 43);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'tc21_options_american_expiryDate_on_weekend')
+data.setCell(18, 2, 'postAPITests.OptionTradeTests')
+data.setCell(18, 3, 42);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'tc25_options_american_invalid_tradeDate')
+data.setCell(19, 2, 'postAPITests.OptionTradeTests')
+data.setCell(19, 3, 42);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'tc22_options_american_expiryDate_before_tradeDate')
+data.setCell(20, 2, 'postAPITests.OptionTradeTests')
+data.setCell(20, 3, 41);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'tc04_spot_check_supported_counterparty')
+data.setCell(21, 2, 'postAPITests.SpotTradeTests')
+data.setCell(21, 3, 41);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'tc26_options_european_expiryDate_premiumDate_before_deliveryDate')
+data.setCell(22, 2, 'postAPITests.OptionTradeTests')
+data.setCell(22, 3, 40);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'tc27_options_invalid_style')
+data.setCell(23, 2, 'postAPITests.OptionTradeTests')
+data.setCell(23, 3, 39);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'tc08_spot_weekend_value_date')
+data.setCell(24, 2, 'postAPITests.SpotTradeTests')
+data.setCell(24, 3, 38);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'tc17_options_american_exerciseStartDate_after_tradeDate_before_expiryDate')
+data.setCell(25, 2, 'postAPITests.OptionTradeTests')
+data.setCell(25, 3, 36);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'tc19_options_american_excerciseStartDate_after_tradeDate_and_expiryDate')
+data.setCell(26, 2, 'postAPITests.OptionTradeTests')
+data.setCell(26, 3, 35);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'tc09_spot_value_date_currency_non_working_day')
+data.setCell(27, 2, 'postAPITests.SpotTradeTests')
+data.setCell(27, 3, 35);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'tc06_spot_illegal_entity')
+data.setCell(28, 2, 'postAPITests.SpotTradeTests')
+data.setCell(28, 3, 35);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'tc11_forward_value_date_after_trade_date')
+data.setCell(29, 2, 'postAPITests.ForwardTradeTests')
+data.setCell(29, 3, 33);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'tc31_options_european_invalid_deliveryDate')
+data.setCell(30, 2, 'postAPITests.OptionTradeTests')
+data.setCell(30, 3, 32);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'TC01_batch_request')
+data.setCell(31, 2, 'postAPITests.BatchValidation')
+data.setCell(31, 3, 29);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">postAPITests.ForwardTradeTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">postAPITests.OptionTradeTests</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">536 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">postAPITests.SpotTradeTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">551 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc010_spot_invalid_value_date</span>
+                <span class="method-start">560 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc01_spot_value_date_after_trade_date</span>
+                <span class="method-start">2336 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc02_spot_value_date_same_as_trade_date</span>
+                <span class="method-start">2424 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc03_spot_value_date_before_trade_date</span>
+                <span class="method-start">2483 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc04_spot_check_supported_counterparty</span>
+                <span class="method-start">2537 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc05_spot_unsupported_counterparty</span>
+                <span class="method-start">2580 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc06_spot_illegal_entity</span>
+                <span class="method-start">2634 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc07_spot_invalid_currency</span>
+                <span class="method-start">2670 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc08_spot_weekend_value_date</span>
+                <span class="method-start">2715 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc09_spot_value_date_currency_non_working_day</span>
+                <span class="method-start">2754 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">postAPITests.ForwardTradeTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">tc11_forward_value_date_after_trade_date</span>
+                <span class="method-start">2794 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc12_forward_value_date_same_as_trade_date</span>
+                <span class="method-start">2829 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc13_forward_value_date_before_trade_date</span>
+                <span class="method-start">2883 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc14_forward_weekend_value_date</span>
+                <span class="method-start">2927 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc15_forward_value_date_currency_non_working_day</span>
+                <span class="method-start">2975 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc16_invalid_value_date</span>
+                <span class="method-start">3023 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">postAPITests.OptionTradeTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">tc17_options_american_exerciseStartDate_after_tradeDate_before_expiryDate</span>
+                <span class="method-start">3077 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc18_options_american_excerciseStartDate_before_tradeDate_and_expiryDate</span>
+                <span class="method-start">3115 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc19_options_american_excerciseStartDate_after_tradeDate_and_expiryDate</span>
+                <span class="method-start">3171 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc20_options_american_deliveryDate_before_premiumDate</span>
+                <span class="method-start">3208 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc21_options_american_expiryDate_on_weekend</span>
+                <span class="method-start">3259 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc22_options_american_expiryDate_before_tradeDate</span>
+                <span class="method-start">3309 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc23_options_american_expiryDate_after_deliveryDate</span>
+                <span class="method-start">3352 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc24_options_american_missing_excerciseStartDate</span>
+                <span class="method-start">3405 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc25_options_american_invalid_tradeDate</span>
+                <span class="method-start">3451 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc26_options_european_expiryDate_premiumDate_before_deliveryDate</span>
+                <span class="method-start">3499 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc27_options_invalid_style</span>
+                <span class="method-start">3540 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc28_options_european_premiumDate_same_as_deliveryDate</span>
+                <span class="method-start">3580 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc29_options_european_expiryDate_after_premiumDate_before_deliveryDate</span>
+                <span class="method-start">3640 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tc30_options_european_expiryDate_premiumDate_after_deliveryDate</span>
+                <span class="method-start">3687 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc31_options_european_invalid_deliveryDate</span>
+                <span class="method-start">3737 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">postAPITests.BatchValidation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">3771 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC01_batch_request</span>
+                <span class="method-start">3772 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
