@@ -82,7 +82,6 @@ public class ForwardTradeTests extends Utilities {
 
 	@Test(description = "FORWARD:Invalid value date should throw an error")
 	public void tc16_invalid_value_date() throws IOException {
-
 		loadData(new Throwable().getStackTrace()[0].getMethodName());
 		JSONObject postBody = new JSONObject(testCaseData);
 		request.header("Content-Type", "application/json");
